@@ -7,7 +7,7 @@ const password = document.getElementById("login_password");
 function submitClick() {
 
     if (userName.value === ADMIN_USERNAME && password.value === ADMIN_PASSWORD) {
-        window.location = '../php/admin.php';
+        window.location = './../html/admin.html';
     }
     return false;
 }

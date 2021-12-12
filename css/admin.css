@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 250px;
+    justify-self: flex-start;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.sidebar span{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.admin-options{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.admin-options button{
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.dashboard{
+    font-size: xx-large;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.overview{
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+}
+
+.right-bar{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infos{
+    margin-top: 50px;
+}
+
+.showinfos{
+    width: 100%;
+}
