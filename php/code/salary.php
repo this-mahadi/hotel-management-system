@@ -1,7 +1,7 @@
 <?php
 include './../server.php';
 
-$sql = "SELECT general, senior, worker, waiter FROM salary;";
+$sql = "SELECT general, senior, worker, waiter FROM salary";
 $result = $conn->query($sql);
 
 $general = 0;

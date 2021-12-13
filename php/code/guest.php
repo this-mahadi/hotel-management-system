@@ -1,7 +1,7 @@
 <?php
 include './../server.php';
 
-$sql = "select name, category, phone from guest;";
+$sql = "SELECT name, category, phone FROM guest";
 $result = mysqli_query($conn, $sql);
 
 $names = 0;

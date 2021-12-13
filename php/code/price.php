@@ -1,7 +1,7 @@
 <?php
 include './../server.php';
 
-$sql = "select vip, general, per_day, single_bed, double_bed from price;";
+$sql = "SELECT vip, general, per_day, single_bed, double_bed FROM price";
 $result = $conn->query($sql);
 
 $vip = 0;
